@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.master {}
+
+.upper-nav {
+    display: inline-flex;
+    width: 100%;
+    height: 30px;
+    background-color: lightgrey;
+}
+
+.contact {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 70px;
+    padding: 0;
+    width: 85%;
+}
+
+.social {
+    margin: 0;
+    margin-top: 3px;
+    padding: 0;
+    width: 15%
+}
+
+.lower-nav {
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+}
+
+.name {
+    color: orange;
+    font-weight: bold;
+    width: 60%;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+
+.listing {
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(./slider-1.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(15, 236, 225, 0.8);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+.content {
+    height: auto;
+    width: 50%;
+    padding-top: 150px;
+    padding-left: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#in {
+    height: 40px;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#but {
+    color: wheat;
+    background-color: orange;
+    height: 45px;
+    width: 100px;
+    border: 0ch;
+    font-family: 'Times New Roman', Times, serif;
+}
